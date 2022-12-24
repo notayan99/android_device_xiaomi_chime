@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_chime.mk
+    $(LOCAL_DIR)/awaken_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_chime-user \
-    evolution_chime-userdebug \
-    evolution_chime-eng
+    awaken_chime-user \
+    awaken_chime-userdebug \
+    awaken_chime-eng
