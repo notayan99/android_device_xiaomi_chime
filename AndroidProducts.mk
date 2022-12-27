@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_chime.mk
+    $(LOCAL_DIR)/bliss_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_chime-user \
-    derp_chime-userdebug \
-    derp_chime-eng
+    bliss_chime-user \
+    bliss_chime-userdebug \
+    bliss_chime-eng
