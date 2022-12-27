@@ -15,6 +15,8 @@ $(call inherit-product, device/xiaomi/chime/device.mk)
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+BLISS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bliss_chime
